@@ -34,7 +34,6 @@
             Di BNI juga ada tutorial berupa buku digital yang membahas studi kasus paling sederhana namun berguna menggunakan teknologi pengembangan website yang terbaru. <a href="https://www.instagram.com/belajarngewebid">Cek sorotan instastory</a> untuk informasi lebih lengkapnya.
         </p>
         <p>
-            Riyan Satria<br />
             Ngademin BNI
         </p>
     </div>

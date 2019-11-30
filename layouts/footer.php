@@ -1,11 +1,15 @@
+<?php
+error_reporting(1);
+$link = $isNotNested ? "./" : "../";
+?>
 <footer>
     <div class="wrap mt-2 mb-2">
         <div class="bagi mb-3 lebar-35">
             <h2>Laman</h2>
             <div>
-                <li><a href="/tentang">Tentang</a></li>
-                <li><a href="/kontribusi">Berkontribusi</a></li>
-                <li><a href="/faq">FAQ</a></li>
+                <li><a href="<?= $link; ?>tentang">Tentang</a></li>
+                <li><a href="<?= $link; ?>kontribusi">Berkontribusi</a></li>
+                <li><a href="<?= $link; ?>faq">FAQ</a></li>
             </div>
         </div>
         <div class="bagi mb-3 lebar-35">

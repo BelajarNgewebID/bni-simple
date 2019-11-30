@@ -119,6 +119,11 @@ button.biru {
     color: #fff;
 }
 button.biru:hover { background-color: #2980b9; }
+button.putih {
+    background-color: #fff;
+    color: #444;
+}
+button.putih:hover { background-color: #ecf0f1; }
 button.biru:focus {
     outline: none;
     box-shadow: 1px 1px 5px 5px #2196f380;

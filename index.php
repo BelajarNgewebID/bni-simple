@@ -7,16 +7,16 @@
     <meta name="description" content="Belajar Ngeweb ID, itu tempat buat kamu nambah wawasan soal seluk-beluk website. Mulai dari teknologi, pemrograman, SEO, sampai ke security, semuanya ada.">
     <meta name="keyword" content="tutorial belajar pemrograman website">
     <title>Belajar Ngeweb ID</title>
-    <link rel="stylesheet" href="assets/fw/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/styles/style.css">
-    <link rel="stylesheet" href="assets/styles/index.css">
-    <link rel="stylesheet" href="assets/styles/style-mobile.css">
+    <link href="./manifest.json" rel="manifest" />
     <link rel="apple-mobile-web-app-capable" content="yes">
     <link rel="apple-mobile-web-app-status-bar-style" content="default">
     <link rel="apple-mobile-web-app-title" content="Belajar Ngeweb ID">
     <link rel="apple-touch-icon" href="assets/images/icons/120.png">
     <link rel="shortcut icon" href="assets/images/iconsBni.png" type="image/png">
-    <link href="./manifest.json" rel="manifest" />
+    <link rel="stylesheet" href="assets/fw/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="assets/styles/index.css">
+    <link rel="stylesheet" href="assets/styles/style-mobile.css">
     <style>
         body {
             -webkit-tap-highlight-color: transparent;
@@ -41,11 +41,13 @@ include './layouts/atas.php';
             <button id="cta" class="instagram" onclick="cta(this)">ke Instagram</button>
             <div class="ket">
                 <div>atau</div>
-                <a href="#about" scroll>Lihat selengkapnya</a>
+                <a href="#toAbout" scroll>Lihat selengkapnya</a>
             </div>
         </div>
     </div>
 </div>
+
+<div id="toAbout"></div>
 
 <div class="bawah">
     <div class="wrap mt-5 mb-3 about section" id="about">
@@ -146,6 +148,17 @@ include './layouts/atas.php';
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="bg-oren mt-5 p-1" id="websiteService">
+        <div class="wrap">
+            <h1>Perlu website untuk menunjang kebutuhanmu?</h1>
+            <p>
+                Ga pake ngoding-ngoding lagi. Serahkan ke tim BNID. Semua keperluanmu untuk urusan website akan tertangani dengan sempurna.
+                <a href="./bikin-website/">
+                    <button class="mt-3 putih lebar-100">Selengkapnya</button>
+                </a>
+            </p>
         </div>
     </div>
     <?php include './layouts/footer.php'; ?>

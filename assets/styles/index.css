@@ -154,3 +154,16 @@ footer li {
 .toDo .keterangan {
     display: none;
 }
+
+#websiteService p {
+    font-size: 22px !important;
+    line-height: 36px;
+    width: 70%;
+}
+
+#toAbout {
+    position: absolute;
+    top: 83%;left: 5%;
+    z-index: 2;
+    background-color: red;
+}

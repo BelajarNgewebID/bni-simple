@@ -28,4 +28,6 @@
     .toDo .keterangan {
         display: none !important;
     }
+
+    #websiteService p { width: 100%; }
 }
