@@ -1,0 +1,31 @@
+@media (max-width: 480px) {
+    .container { top: 100px; }
+    .container h2 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .container .konten {
+        width: 100%;
+        float: none;
+    }
+    .container .ilustrasi {
+        top: 0px;
+        float: left;
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 25px;
+    }
+    .container #cta {
+        width: 100%;
+        height: 50px;
+        margin-top: 0px;
+    }
+    .container .action { text-align: center; }
+    .container .ket { margin-top: 15px; }
+    .container .ket div { margin-bottom: 15px; }
+
+    .bawah .about h2 { margin-top: 5px; }
+    .toDo .keterangan {
+        display: none !important;
+    }
+}

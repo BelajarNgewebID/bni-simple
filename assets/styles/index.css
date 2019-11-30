@@ -1,0 +1,156 @@
+body {
+    font-family: ProReg;
+    color: #444;
+    background-color: #fff;
+}
+.instagram{ width:100px; height:100px;
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+.atas {
+    position: fixed;
+    top: 0px;left: 0px;right: 0px;
+    line-height: 75px;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px 1px #ddd;
+    z-index: 2;
+}
+.atas #tblMenu {
+    float: right;
+    margin-right: 5%;
+    font-size: 25px;
+    cursor: pointer;
+}
+.atas .icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 120px;
+    margin-left: 5%;
+    float: left;
+    position: relative;
+    top: 11px;
+}
+.atas h1 {
+    display: inline-block;
+    margin: 0;
+    margin-left: 2.5%;
+    font-size: 22px;
+    font-family: ProBold;
+    cursor: pointer;
+}
+.atas a { color: #444; }
+
+.container {
+    position: absolute;
+    top: 180px;left: 5%;right: 5%;
+}
+.container .konten {
+    width: 35%;
+    float: left;
+}
+.container .ilustrasi {
+    float: right;
+    width: 65%;
+    margin-top: -85px;
+    text-align: right;
+}
+.container .ilustrasi img {
+    width: 98%;
+}
+.container h2 {
+    font-size: 35px;
+    font-family: ProBold;
+    line-height: 60px;
+}
+.container #cta {
+    margin-top: 20px;
+    width: 300px;
+    height: 60px;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: ProBold;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.container .ket {
+    margin-top: 40px;
+}
+.container .ket div {
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+a {
+    color: #f15a2d;
+    font-family: ProBold;
+}
+
+.bawah {
+    position: absolute;
+    top: 100%;left: 0px;right: 0px;
+    background-color: #ecf0f1;
+}
+.bawah .section h2 {
+    font-size: 45px;
+    margin: 0;
+    color: #777;
+}
+.bawah .about h2 { margin-top: 115px; }
+.bawah .about p {
+    line-height: 30px;
+}
+.bawah .about .bg-putih { border: 1px solid #ddd; }
+
+footer {
+    background-color: #ee4411;
+    color: #fff;
+    padding: 1px;
+}
+footer a { color: #eee;text-decoration: none;font-family: ProReg; }
+footer a:hover { color: #fff; }
+footer li {
+    line-height: 40px;
+    list-style: none;
+}
+
+.menu {
+    position: fixed;
+    top: 0px;left: 0px;right: 0px;bottom: 0px;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 4;
+    text-align: center;
+    display: none;
+}
+.menu .wrap { margin: 10%; }
+.menu a {
+    text-decoration: none;
+    color: #444;
+}
+.menu li {
+    list-style: none;
+    font-size: 22px;
+    line-height: 50px;
+    font-family: ProBold;
+}
+.menu #xMenu {
+    position: fixed;
+    top: 30px;right: 7%;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.toDo img {
+    width: 100%;
+}
+.toDo .bg-putih {
+    height: 230px;
+    vertical-align: bottom;
+}
+.toDo .image { height: 185px; }
+.toDo .keterangan {
+    display: none;
+}

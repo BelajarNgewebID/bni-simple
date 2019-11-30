@@ -1,0 +1,16 @@
+{
+    "name": "Belajar Ngeweb ID",
+    "display": "fullscreen",
+    "short_name": "Belajar Ngeweb ID",
+    "start_url": "/",
+    "icons": [
+        {
+            "src": "./assets/images/icons/120.png",
+            "size": "120x120"
+        },
+        {
+            "src": "./assets/images/iconsBni.png",
+            "size": "512x512"
+        }
+    ]
+}
